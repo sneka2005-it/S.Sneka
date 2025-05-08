@@ -1,0 +1,267 @@
+1. Player-Level Data
+
+a. Biographical Information
+
+Player ID
+
+Name
+
+Age
+
+Height
+
+Weight
+
+Position
+
+Experience (years in league)
+
+
+b. Physical & Fitness Metrics
+
+Sprint speed
+
+Endurance (VO2 max, time to exhaustion)
+
+Injury history (type, frequency, recovery time)
+
+Strength metrics (bench press, squat max)
+
+
+c. Skill-Based Stats (Sport-specific) For example, in football (soccer):
+
+Pass completion rate
+
+Dribble success rate
+
+Tackles per match
+
+Goals per 90 minutes
+
+Assists per 90 minutes
+
+Expected goals (xG)
+
+Key passes
+
+
+For basketball:
+
+Points per game
+
+Rebounds
+
+Assists
+
+Steals
+
+Shooting percentage (FG%, 3P%, FT%)
+
+
+
+---
+
+2. Game-Level Data
+
+Game ID
+
+Date
+
+Opponent
+
+Venue (home/away/neutral)
+
+Match outcome (win/loss/draw)
+
+Scoreline
+
+Team possession %
+
+Number of shots
+
+Tactical formation used
+
+Substitution details
+
+
+
+---
+
+3. Team-Level Tactical Data
+
+Formation used (e.g., 4-3-3, 3-5-2)
+
+Pressing intensity
+
+Pass network (average position map)
+
+Ball recovery zones
+
+Set-piece success rate
+
+Transition speed (defense to attack)
+
+
+
+---
+
+4. Advanced Analytics
+
+Player heatmaps (zone occupancy)
+
+Player contribution to team xG/xA (expected assists)
+
+Plus-minus stats (e.g., team goal difference when player is on vs. off the pitch)
+
+Passing networks and centrality metrics
+
+Machine learning-based player impact scores
+
+
+
+---
+
+5. Contextual Data
+
+Weather conditions
+
+Crowd attendance
+
+Travel fatigue indicators
+
+Opponent ranking/strength
+
+Match importance (league, cup, friendly)1. Player-Level Data
+
+a. Biographical Information
+
+Player ID
+
+Name
+
+Age
+
+Height
+
+Weight
+
+Position
+
+Experience (years in league)
+
+
+b. Physical & Fitness Metrics
+
+Sprint speed
+
+Endurance (VO2 max, time to exhaustion)
+
+Injury history (type, frequency, recovery time)
+
+Strength metrics (bench press, squat max)
+
+
+c. Skill-Based Stats (Sport-specific) For example, in football (soccer):
+
+Pass completion rate
+
+Dribble success rate
+
+Tackles per match
+
+Goals per 90 minutes
+
+Assists per 90 minutes
+
+Expected goals (xG)
+
+Key passes
+
+
+For basketball:
+
+Points per game
+
+Rebounds
+
+Assists
+
+Steals
+
+Shooting percentage (FG%, 3P%, FT%)
+
+
+
+---
+
+2. Game-Level Data
+
+Game ID
+
+Date
+
+Opponent
+
+Venue (home/away/neutral)
+
+Match outcome (win/loss/draw)
+
+Scoreline
+
+Team possession %
+
+Number of shots
+
+Tactical formation used
+
+Substitution details
+
+
+
+---
+
+3. Team-Level Tactical Data
+
+Formation used (e.g., 4-3-3, 3-5-2)
+
+Pressing intensity
+
+Pass network (average position map)
+
+Ball recovery zones
+
+Set-piece success rate
+
+Transition speed (defense to attack)
+
+
+
+---
+
+4. Advanced Analytics
+
+Player heatmaps (zone occupancy)
+
+Player contribution to team xG/xA (expected assists)
+
+Plus-minus stats (e.g., team goal difference when player is on vs. off the pitch)
+
+Passing networks and centrality metrics
+
+Machine learning-based player impact scores
+
+
+
+---
+
+5. Contextual Data
+
+Weather conditions
+
+Crowd attendance
+
+Travel fatigue indicators
+
+Opponent ranking/strength
+
+Match importance (league, cup, friendly)
