@@ -1,0 +1,41 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Sample data (you can load from a CSV file)
+data = {
+    'Player': ['Alice', 'Bob', 'Charlie', 'David', 'Eve'],
+    'Points': [25, 15, 20, 10, 30],
+    'Assists': [5, 7, 6, 3, 4],
+    'Rebounds': [8, 6, 9, 4, 5],
+    'Steals': [2, 3, 1, 2, 4],
+    'MinutesPlayed': [30, 25, 28, 20, 32]
+}
+
+# Create DataFrame
+df = pd.DataFrame(data)
+
+# Compute Efficiency Metric (customizable)
+df['Efficiency'] = (df['Points'] + df['Assists'] + df['Rebounds'] + df['Steals']) / df['MinutesPlayed']
+
+# Sort by efficiency
+df_sorted = df.sort_values(by='Efficiency', ascending=False)
+
+# Display top players
+print("Top Players by Efficiency:\n")
+print(df_sorted[['Player', 'Efficiency']])
+
+# Visualize efficiency
+plt.figure(figsize=(10, 5))
+plt.bar(df_sorted['Player'], df_sorted['Efficiency'], color='skyblue')
+plt.title('Player Efficiency')
+plt.xlabel('Player')
+plt.ylabel('Efficiency Score')
+plt.tight_layout()
+plt.show()
+
+# Strategy Suggestion (basic example)
+print("\nSuggested Strategy:")
+if df_sorted.iloc[0]['Efficiency'] > 1.5:
+    print(f"Build strategy around top performer: {df_sorted.iloc[0]['Player']}")
+else:
+    print("Consider improving team training or revisiting player roles.")
